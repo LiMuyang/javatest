@@ -17,7 +17,9 @@ class Link{
 	public boolean contains(String data){
 		if(this.root==null){
 			return false;
-		} else 
+		} else if (this.root.data==data) {
+			return true
+		}
 	}
 	public boolean contains(String data,Node currentNode){
 		

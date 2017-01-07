@@ -77,7 +77,7 @@ class Driver{
 }
 
 class Message{
-	private String str = "aaa";
+	private String str = "bbb";
 	public Message(String str){
 		this.str = str;
 	}
